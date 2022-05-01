@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,200&family=Nunito:wght@200;300&family=Poppins:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #191919;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.cabecalho-imagem {
+    height: 125px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.cabecalho-menu-item {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 40px;
+    border-top: 2px solid #ffff;  
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: auto;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} 
+
+.conteudo-principal-escrito-titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 70px;
+    width: 700px; 
+
+}
+
+.conteudo-principal-escrito-texto {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 300px;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: row;
+    align-items: auto;
+    justify-content: space-around;
+    gap: 2px;
+}
+
+.conteudo-secundario-logo2 {
+    font-size: 15px;
+    font-weight: 300px;
+    width: 300px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.rodape {
+    border-top: 2px solid #ffff;  
+    display: flex;
+    flex-direction: row;
+}
+
+.rodape-img {
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+ 
